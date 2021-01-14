@@ -1,0 +1,102 @@
+/* --- Utilities --- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.mainbutton {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #e8eae6;
+    background-color: #433520;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    width: 200px;
+}
+.mainbutton:hover {
+    background-color: #7c9473;
+    color: #433520;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+/* --- Header --- */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+#logo a {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Pacifico', 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #7c9473;
+}
+.logo i {
+    color: #433520;
+    padding: 0 3px;
+}
+/* ---- Navigation Bar ---- */
+#nav {
+    background-color: #cfdac8;
+    padding: 10px;
+}
+#nav li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0;
+}
+#nav a {
+    color: #433520;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: #e8eae6;
+}
+#nav a.current {
+    color: #7c9437;
+}
+.menucontainer {
+    font-size: 0;
+    margin: 0;
+}
+.menuitem {
+    text-align: center;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/* ---- Footer ---- */
+.social {
+    text-align: center;
+    padding-top: 18px;
+}
+.social i {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: #433520;
+}
+.social h6 {
+    padding-left: 20px;
+}
+.social span {
+    color: #7c9473;
+    font-family: 'Pacifico', 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.social h6 i {
+    padding: 0 2px;
+}
