@@ -11,13 +11,13 @@ body {
 .mainbutton {
     cursor: pointer;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: #e8eae6;
     background-color: #433520;
     border: none;
-    border-radius: 15px;
-    font-size: 1.6rem;
-    width: 200px;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    width: 120px;
 }
 .mainbutton:hover {
     background-color: #7c9473;
@@ -78,11 +78,136 @@ header {
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+/* ---- Hero Carousel ---- */
+.hero-container {
+    margin: 0;
+    padding: 0;
+}
+.hero-img {
+    height: 60vh;
+    padding: 0;
+}
+.carousel {
+    padding: 0;
+}
 
+.img-one {
+    background:url("/assets/images/hero-imgs/hero.jpg")no-repeat center center/cover;
+}
+.img-two {
+    background:url("/assets/images/hero-imgs/defence.jpg")no-repeat center center/cover;
+}
+.message {
+    text-align: right;
+    padding-right: 300px;
+    margin-top: 65px;
+    color: #433520;
+}
+.message h3 {
+    font-weight: 700;
+}
+.img-three {
+    background:url("/assets/images/hero-imgs/creche.jpg")no-repeat center center/cover;
+}
+.img-four {
+    background:url("/assets/images/hero-imgs/gymroom.jpg")no-repeat center center/cover;
+}
+.img-five {
+    background:url("/assets/images/hero-imgs/sauna.jpg")no-repeat center center/cover;
+}
+.img-six {
+    background:url("/assets/images/hero-imgs/food.jpg")no-repeat center center/cover;
+}
+/* ---- Hero Summary ---- */
+.summary {
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 5px;
+    background-color: #e8eae6;
+    color: #433520;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.summary h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+.summary p {
+    font-size: 1.1rem;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+/* ---- Features section ---- */
+.featurecontainer {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+.featureitem {
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding-top: 7px;
+    margin: 0;
+}
+.featureitem i {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.gym, 
+.sauna,
+.creche {
+    background-color: #7c9473;
+    color: #433520;
+}
+.yoga,
+.pilates,
+.food {
+    background-color: #cdd0cb;
+    color: #433520;
+}
+/*---- Information Section ----*/
+.open-times {
+    background: #e8eae6;
+    padding: 40px 100px;
+}
+.open-times h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #433520;
+}
+td {
+    font-weight: bold;
+}
+.open-times small {
+    padding: 10px;
+    font-style: italic;
+}
+.table-heading {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #7c9473;
+}
+.information {
+    background: #cfdac8;
+    padding-top: 40px;
+    text-align: center;
+}
+.information h5 {
+    font-weight: bold;
+}
+.information i {
+    color: #433520;
+    padding-bottom: 20px;
+}
 /* ---- Footer ---- */
 .social {
     text-align: center;
-    padding-top: 18px;
+    padding-top: 22px;
 }
 .social i {
     padding-left: 20px;
