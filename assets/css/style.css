@@ -23,6 +23,21 @@ body {
     background-color: #7c9473;
     color: #433520;
 }
+.button-two {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #433520;
+    background-color: #e8eae6;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    width: 120px;
+}
+.button-two:hover {
+    background-color: #433520;
+    color: #7c9473;
+}
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -121,7 +136,7 @@ header {
 /* ---- Hero Summary ---- */
 .summary {
     display: inline-block;
-    padding-top: 80px;
+    padding-top: 140px;
     padding-left: 5px;
     background-color: #e8eae6;
     color: #433520;
@@ -131,7 +146,7 @@ header {
 }
 .summary h3 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding-bottom: 15px;
 }
 .summary p {
@@ -224,4 +239,84 @@ td {
 }
 .social h6 i {
     padding: 0 2px;
+}
+/* ---- Services ---- */
+.alert {
+    margin: 0;
+    border: 0;
+    padding-left: 100px;
+}
+.alert h5 {
+    display: inline-flex;
+    padding-left: 150px;
+    padding-right: 40px;
+    color: #433520;
+}
+.modal-body {
+    padding-bottom: 30px;
+}
+.modal-content {
+    width: 500px;
+    height: 600px;
+   
+} 
+.modal-title {
+    color: #433520;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+label {
+    color: #7c9473;
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+input {
+    width: 100%;
+    height: 3rem;
+    padding: 15px;
+    border-color: #433520;
+    border-radius: 5px;
+}
+.modal-footer {
+    padding: 20px;
+}
+
+.services-flex {
+    margin: 0;
+    background: #7c9473;
+}
+.services-flex i {
+    font-size: 4rem;
+    padding-bottom: 25px;
+}
+.services-flex h4 {
+    line-height: 1.5;
+}
+.service-item {
+    height: 350px;
+}
+.yog-pil-img {
+    background:url("/assets/images/services-img/pilates.jpg")no-repeat center center/cover;
+}
+.gym-img {
+    background:url("/assets/images/hero-imgs/gymroom.jpg")no-repeat center center/cover;
+}
+.creche-img {
+    background:url("/assets/images/services-img/childcare.jpg")no-repeat center center/cover;
+}
+.sauna-img {
+    background:url("/assets/images/services-img/zen-stones.jpg")no-repeat center center/cover;
+}
+.food-img {
+    background:url("/assets/images/hero-imgs/food.jpg")no-repeat center center/cover;
+}
+.yog-pil-text,
+.gym-text,
+.creche-text,
+.sauna-text,
+.food-text {
+    padding: 40px;
+    text-align: center;
+    color: #433520;
 }
