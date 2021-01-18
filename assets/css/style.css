@@ -246,27 +246,61 @@ td {
         height: 60vh;
     }
 .what {
-    height: 400px;
+    height: 500px;
     background-color: #cfdac8;
     color: #433520;
-    padding: 40px;
-}
-.what i,
-.why i {
-    font-size: 4rem;
-    padding-left: 350px;
-    align-items: center;
-}
+    padding: 40px 100px;
 
+}
 .why {
-    height: 400px;
+    height: 500px;
     background-color:#7c9473;
     color: #433520;
-    padding: 40px;
+    padding: 40px 100px;
 }
 
+.what h3,
+.why h3 {
+    font-family: 'Pacifico', 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px;
+}
 
+.what h5,
+.why h5 {
+    text-align: justify;
+    line-height: 1.8;
+    padding: 0 50px;
+    font-size: 1.4rem;
+}
 
+.price-column {
+    padding: 0;
+}
+
+.card-header {
+    background-color: #7c9437;
+    text-align: center;   
+    padding: 15px;
+}
+.card-header h4 {
+    font-weight: 700;
+   
+
+}
+.card {
+    height: 360px;
+}
+.card-body {
+    padding: 15px 70px;
+    line-height: 2;
+   
+}
+.plans {
+    text-align: center;
+    padding-top: 80px;
+}
 /* ---- Services ---- */
 .alert {
     margin: 0;
@@ -369,7 +403,8 @@ input {
     display: flex;
 }
 .radio div {
-    padding-right: 100px;
+    padding-right: 150px;
+    padding-left: 10px;
   
 }
 .radio input {
