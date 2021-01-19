@@ -25,6 +25,10 @@ Added opening times and information section.
 #### Commit 3 - Added a modal to service.html, images and text boxes.
 
 #### Commit 4 - Added form to contact.html
+
+#### Commit 5 - Completed about.html.
+bootstrap cards for the pricing boxes.
+
 # testing
 # deployment
 

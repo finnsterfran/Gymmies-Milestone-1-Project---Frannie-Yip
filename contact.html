@@ -37,61 +37,60 @@
             </div>
         </div>
     </header>
-    <section id="form">
-        <form class="form-container">
-            <div class="row">
-                <div col-12>
-                    <h3>Need More Information?</h3>
-                    <h4>Fill in this form and we will get in touch!</h4>
-                    <div class="form-group col-12">
-                        <label for="form-first-name">First Name</label><br>
-                        <input type="text" id="form-first-name" name="form-first-name" required>
-                    </div>
-                    <div class="form-group col-12">
-                        <label for="form-last-name">Last Name</label><br>
-                        <input type="text" id="form-last-name" name="form-last-name" required>
-                    </div>
-                    <div class="form-group col-12">
-                        <label for="form-email">Email</label><br>
-                        <input type="email" id="form-email" name="form-email" required>
-                    </div>
-                    <div class="form-group col-12">
-                        <label for="form-telephone">Telephone number: </label><br>
-                        <input type="number" id="form-telephone" name="form-telephone required>
-                    </div>
-                    <div class="form-group col-12">
-                        <label>Preferred Method of Communications: </label>   
-                    </div>       
-                    <div class="radio form-group col-12">
-                        <div>
-                            <input type="radio" id="email-radio" name="radio" value="email" checked>
-                            <label for="email-radio">Email</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="telephone-radio" name="radio" value="telephone">
-                            <label for="telephone-radio">Telephone</label>
-                        </div>
-                        <div>
-                            <input type="radio" id="either-radio" name="radio" value="either">
-                            <label for="either-radio">Either</label>
-                        </div>
-                </div>    
+     <section id="contact-form">
+         <div class="form-container">
+            <h3>Need More Information?</h3>
+            <h4>Fill in this form and we will get in touch!</h4>
+            <form action="process.php">  
+            <div class="form-group">
+                <label for="form-first-name">First Name</label><br>
+                <input type="text" id="form-first-name" name="form-first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="form-last-name">Last Name</label><br>
+                <input type="text" id="form-last-name" name="form-last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="form-email">Email</label><br>
+                <input type="email" id="form-email" name="form-email" required>
+            </div>
+            <div class="form-group">
+                <label for="form-telephone">Telephone number: </label><br>
+                <input type="number" id="form-telephone" name="form-telephone required">
+            </div>
+            <div class="form-group">
+                <label>Preferred Method of Communication: </label>   
+            </div>       
+            <div class="radio form-group">
+                <div>
+                    <input type="radio" id="email-radio" name="radio" value="email" checked>
+                    <label for="email-radio">Email</label>
+                </div>
+                <div>
+                    <input type="radio" id="telephone-radio" name="radio" value="telephone">
+                    <label for="telephone-radio">Telephone</label>
+                </div>
+                <div>
+                    <input type="radio" id="either-radio" name="radio" value="either">
+                    <label for="either-radio">Either</label>
+                </div>
+            </div>    
                 <div class="textarea">   
                     <label for="enquiries">Specific Enquiries: </label><br>
                     <textarea name="message" id="enquiries" cols="90" rows="6"></textarea>
                 </div> 
             <button type="reset" class="button-two">Reset</button>
             <button type="Submit" class="mainbutton">Submit</button>
-            </div>  
-        </div>
-      
-
-
-        </form>
-
-    
+        </form>    
+        </div>  
+ 
+             
+            
     
     </section>
+    
+    
+ 
     <footer>
         <div class="social">
             <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>

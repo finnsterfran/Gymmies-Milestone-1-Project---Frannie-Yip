@@ -249,14 +249,14 @@ td {
     height: 500px;
     background-color: #cfdac8;
     color: #433520;
-    padding: 40px 100px;
+    padding: 20px 100px;
 
 }
 .why {
     height: 500px;
     background-color:#7c9473;
     color: #433520;
-    padding: 40px 100px;
+    padding: 20px 100px;
 }
 
 .what h3,
@@ -283,23 +283,28 @@ td {
     background-color: #7c9437;
     text-align: center;   
     padding: 15px;
+    color: #433520;
+    height: 90px;
 }
-.card-header h4 {
-    font-weight: 700;
-   
 
+.card-header h4 {
+    font-weight: 500;
 }
 .card {
     height: 360px;
 }
 .card-body {
-    padding: 15px 70px;
+    padding: 35px 30px;
     line-height: 2;
-   
+    background-color: #e8eae6;
+    font-weight: 900;
 }
 .plans {
     text-align: center;
     padding-top: 80px;
+}
+.plans h2 {
+   color: #433520;
 }
 /* ---- Services ---- */
 .alert {
@@ -382,40 +387,108 @@ input {
     color: #433520;
 }
 /* ---- Contact ---- */
-/* #form {
-    margin: 70px 300px;
-} */
-#form h3,
-#form h4 {
-    text-align: center;
+.form-container {
+    width: 70%;
+    margin: 60px 200px 10px 200px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #cdd0cb;
+}
+
+#contact-form .form-group {
+  margin-bottom: 5px;
+}
+
+#contact-form label {
+  margin: 5px;
+  padding-left: 4px;
+    
+}
+#contact-form h3,
+#contact-form h4 {
     font-weight: 700;
+    text-align: center;
     color: #433520;
 }
-#form h4 {
-    padding-bottom: 30px;
-}
-.form-container {
-    align-items: center;
-    background-color: #cdd0cb;
-    padding: 100px 300px;
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px #ddd solid;
+  border-radius: 20px;
 }
 .radio {
     display: flex;
 }
 .radio div {
-    padding-right: 150px;
-    padding-left: 10px;
-  
+    padding-right: 100px;
 }
 .radio input {
-    height: 1.5rem;
+    height: 2rem;
 }
-.textarea {
-    padding-left: 15px;
+#contact-form textarea {
+  height: 200px;
+  border-radius: 20px;
 }
-textarea {
-    border-radius: 5px;
+#contact-form input {
+    padding-right: 100px;
 }
-#form button {
-    margin: 20px;
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#contact-form button {
+    margin: 10px 10px 0 10px;
+    
+}
+
+/* ---- Media Query ---- */
+@media (max-width: 1024px) {
+    .summary {
+       padding: 70px;
+    }
+    .about-image {
+        height: 50vh;
+    }
+
+    .what,
+    .why {
+        height: 550px;
+        padding: 20px 50px;
+    }
+    .card {
+        height: 400px;
+    }
+    .card-header {
+        height: 120px;
+    }
+    .package {
+        padding-top: 30px;
+    }
+    .card-body {
+       padding: 20px;
+    }
+    .plans {
+        padding-top: 100px;
+    }
+    .alert h5 {
+        padding-left: 0;
+    }
+    .services-flex h4 {
+        font-size: 1.1rem;
+    }
+    .form-container {
+    width: 70%;
+    margin-left: 150px;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #cdd0cb;
+}
+
+}
+@media (max-width: 520px) {
+    body {
+        width: 100%;
+    }
 }
