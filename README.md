@@ -31,6 +31,9 @@ bootstrap cards for the pricing boxes.
 
 #### Commit 6 - Restructured contact.html added media query (max-width: 1024px)
 contact.html was not lining up properly, I redid the container without bootstrap so that it would line up properly,
+
+#### Commit 7 - Finished all other viewport mediaquery
+
 # testing
 # deployment
 

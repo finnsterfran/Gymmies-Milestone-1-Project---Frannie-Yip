@@ -64,6 +64,7 @@ header {
     color: #433520;
     padding: 0 3px;
 }
+
 /* ---- Navigation Bar ---- */
 #nav {
     background-color: #cfdac8;
@@ -246,16 +247,17 @@ td {
 .about-image {
         background:url("/assets/images/lotus.jpg")no-repeat center center/cover;
         height: 60vh;
+        width: 100%;
     }
 .what {
-    height: 500px;
+    height: 600px;
     background-color: #cfdac8;
     color: #433520;
     padding: 20px 100px;
 
 }
 .why {
-    height: 500px;
+    height: 600px;
     background-color:#7c9473;
     color: #433520;
     padding: 20px 100px;
@@ -354,7 +356,6 @@ input {
 }
 
 .services-flex {
-    margin: 0;
     background: #7c9473;
 }
 .services-flex i {
@@ -365,7 +366,8 @@ input {
     line-height: 1.5;
 }
 .service-item {
-    height: 350px;
+    height: 400px;
+    padding: 20px;
 }
 .yog-pil-img {
     background:url("/assets/images/services-img/pilates.jpg")no-repeat center center/cover;
@@ -484,20 +486,21 @@ input {
     .services-flex h4 {
         font-size: 1.1rem;
     }
+    .service-item {
+        padding: 70px;
+    }
     .form-container {
     width: 70%;
     margin-left: 150px;
     border-radius: 20px;
     padding: 40px;
     background-color: #cdd0cb;
+    }
+    
 }
 
-
-
 @media screen and (max-width: 768px) {
-    html {
-        width: 103%;
-    }
+    
     .summary {
         padding: 23px 100px;
     }
@@ -528,21 +531,27 @@ input {
     .alert h5 {
         padding-bottom: 5px;
     }
+    .yog-pil-text {
+        padding-top: 50px;
+    }
     .gym-text {
-        padding: 30px;
+        padding: 40px;
     }
     .sauna-text {
-        padding: 50px;
+        padding: 80px;
     }
     .food-text {
-        padding: 50px;
+        padding-top: 80px;
+    }
+    
+    .form-container {
+        width: 100vw;
+        margin: 0;
     }
 }   
-@media screen and (max-width: 520px) {
 
-    html {
-        width: 103%;
-    }
+@media screen and (max-width: 520px) {
+    
     .message {
         margin-top: 20px;
         text-align: center;
@@ -577,7 +586,38 @@ input {
         line-height: 1.7;
         padding-bottom: 10px;
     }
-    
+    .why,
+    .what {
+        padding: 10px 15px 10px 8px;
+        height: 350px;
+    }
+    .why h3,
+    .what h3 {
+        font-size: 1.2rem;
+    }
+    .why h5,
+    .what h5 {
+        font-size: 1rem;
+    }
+    .card-header {
+        height: 70px;
+        padding: 0;
+    }
+    .card-header h4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        padding: 15px;
+    }
+    .card {
+        height: 270px;
+        
+    }
+    .card-body li {
+        font-size: 1rem;
+    }
+    .plans {
+        padding-top: 70px;
+    }
     .gym, 
     .pilates,
     .creche {
@@ -589,5 +629,25 @@ input {
     .food {
         background-color: #cdd0cb;
         color: #433520;
+    }
+    .alert h5 {
+        padding-left: 30px;
+    }
+    .service-item {
+        height: 300px;
+        padding: 30px;
+    }
+    .gym-text i {
+        padding-bottom: 5px;
+    }
+    .gym-text,
+    .sauna-text {
+        background-color: #cfdac8;
+    }
+    body {
+        width: 160%;
+    }
+    .form-container {
+        width: 100%;
     }
 }
