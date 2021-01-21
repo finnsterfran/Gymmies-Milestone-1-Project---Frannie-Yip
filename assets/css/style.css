@@ -42,6 +42,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 /* --- Header --- */
 header {
     margin: 0;
@@ -68,6 +69,7 @@ header {
     background-color: #cfdac8;
     padding: 10px;
 }
+
 #nav li {
     font-size: 1.3rem;
     font-weight: 500;
@@ -136,7 +138,7 @@ header {
 /* ---- Hero Summary ---- */
 .summary {
     display: inline-block;
-    padding-top: 140px;
+    padding-top: 90px;
     padding-left: 5px;
     background-color: #e8eae6;
     color: #433520;
@@ -299,6 +301,9 @@ td {
     background-color: #e8eae6;
     font-weight: 900;
 }
+.card-body ul {
+    list-style: none;
+}
 .plans {
     text-align: center;
     padding-top: 80px;
@@ -444,7 +449,8 @@ input {
 }
 
 /* ---- Media Query ---- */
-@media (max-width: 1024px) {
+
+@media screen and (max-width: 1024px) {
     .summary {
        padding: 70px;
     }
@@ -486,9 +492,102 @@ input {
     background-color: #cdd0cb;
 }
 
-}
-@media (max-width: 520px) {
-    body {
-        width: 100%;
+
+
+@media screen and (max-width: 768px) {
+    html {
+        width: 103%;
+    }
+    .summary {
+        padding: 23px 100px;
+    }
+    .summary p {
+        padding-bottom: 5px;
+    }
+    .open-times {
+        padding: 30px 40px;
+    }
+    .information {
+        padding-right: 40px;
+        padding-bottom: 30px;
+    }
+    .why,
+    .what {
+        height: 400px;
+    }
+    .card-body li {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .alert {
+        text-align: center;
+        padding: 20px 25px;
+    }
+    .alert h5 {
+        padding-bottom: 5px;
+    }
+    .gym-text {
+        padding: 30px;
+    }
+    .sauna-text {
+        padding: 50px;
+    }
+    .food-text {
+        padding: 50px;
+    }
+}   
+@media screen and (max-width: 520px) {
+
+    html {
+        width: 103%;
+    }
+    .message {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-bottom: 200px;
+        color: #433520;
+        }
+    .logo {
+        font-size: 3.2rem;
+    }
+    .carousel-control-next {
+        right: 10px;
+    }
+    .summary {
+    display: inline-block;
+    padding: 30px 40px;;
+    background-color: #e8eae6;
+    color: #433520;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .summary h3 {
+        font-weight: 700;
+        font-size: 1.9rem;
+        padding-bottom: 10px;
+    }
+    .summary p {
+        font-size: 1rem;
+        line-height: 1.7;
+        padding-bottom: 10px;
+    }
+    
+    .gym, 
+    .pilates,
+    .creche {
+        background-color: #7c9473;
+        color: #433520;
+    }
+    .yoga,
+    .sauna,
+    .food {
+        background-color: #cdd0cb;
+        color: #433520;
     }
 }
