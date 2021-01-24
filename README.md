@@ -2,11 +2,29 @@ MILESTONE PROJECT ONE - USER CENTRIC FRONTEND DEVELOPMENT
 # Gym|mies A gym for the stay-at-home mums
 define project purpose
 
-# UX Designs
-user stories
-dev bus goals
-design choices
-wireframes
+##Table of Contents: 
+* UX
+    * User stories
+    * Strategy
+    * Scope
+    * Structure
+    * Skeleton
+    * Surface
+* Features 
+    * Existing Features
+    * Features to consider implementing in the future
+* Technologies used
+    * Languages
+    * Frameworks
+    * Integrations
+    * Workspace, Version Control and Repository Storage
+* Resources
+* Testing
+* Deployment 
+* Credits 
+    * media
+    * code
+* Acknowledgements 
 
 # Structure and information
 Font family Pacifico for the logo, Roboto for the entire body of the website.
@@ -34,7 +52,11 @@ contact.html was not lining up properly, I redid the container without bootstrap
 
 #### Commit 7 - Finished all other viewport mediaquery
 
+#### commit 8 embedded img index.html and about.html for accessibility, fixed social links
+
 # testing
 # deployment
 
 # credits
+
+
