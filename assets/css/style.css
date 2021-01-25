@@ -50,6 +50,7 @@ body {
 .container-fluid {
     margin: 0;
     padding: 0;
+   
 }
 
 /* --- Header --- */
@@ -192,7 +193,7 @@ header {
 /*---- Information Section ----*/
 .open-times {
     background: #e8eae6;
-    padding: 40px 100px;
+    padding: 60px 100px;
 }
 .open-times h3 {
     font-weight: 700;
@@ -213,7 +214,7 @@ td {
 }
 .information {
     background: #cfdac8;
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: center;
 }
 .information h5 {
@@ -251,24 +252,28 @@ td {
         background-size: cover;
         width: 100vw;
     }
+.about-image {
+    padding-left: 0;
+}
 .what {
     height: 600px;
     background-color: #cfdac8;
     color: #433520;
-    padding: 20px 100px;
+    padding: 70px 100px;
 
 }
 .why {
     height: 600px;
     background-color:#7c9473;
     color: #433520;
-    padding: 20px 100px;
+    padding: 70px 100px;
 }
 
 .what h3,
 .why h3 {
     font-family: 'Pacifico', 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 2.2rem;
     text-align: center;
     padding: 25px;
 }
@@ -278,7 +283,7 @@ td {
     text-align: justify;
     line-height: 1.8;
     padding: 0 50px;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
 }
 
 .price-column {
@@ -300,13 +305,16 @@ td {
     height: 360px;
 }
 .card-body {
-    padding: 35px 30px;
+    padding: 35px 40px;
     line-height: 2;
     background-color: #e8eae6;
     font-weight: 900;
 }
 .card-body ul {
     list-style: none;
+    padding-left: 90px;
+    font-size: 1.1rem;
+    
 }
 .plans {
     text-align: center;
@@ -377,9 +385,7 @@ input {
     height: 400px;
     padding: 0;
 }
-.col-12 {
-    padding: 0;
-}
+
 .service-item img {
     background-repeat: no-repeat;
     background-position: center;
@@ -404,10 +410,11 @@ input {
 /* ---- Contact ---- */
 .form-container {
     width: 70%;
-    margin: 60px 200px 10px 200px;
+    margin: 60px 200px 10px 280px;
     border-radius: 20px;
     padding: 40px;
     background-color: #cdd0cb;
+   
 }
 
 #contact-form .form-group {
@@ -427,10 +434,11 @@ input {
 }
 #contact-form input,
 #contact-form textarea {
-  width: 100%;
-  padding: 5px;
-  border: 1px #ddd solid;
-  border-radius: 20px;
+    height: 4rem;
+    width: 100%;
+    padding-left: 25px;
+    border: 1px #ddd solid;
+    border-radius: 20px;
 }
 .radio {
     display: flex;
@@ -454,6 +462,7 @@ input {
   border-color: #f7c08a;
 }
 #contact-form button {
+    font-size: 1.5rem;
     margin: 10px 10px 0 10px;
     
 }
@@ -466,6 +475,7 @@ input {
     .summary {
         padding-top: 130px;
     }
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -550,7 +560,7 @@ input {
     }
     .why,
     .what {
-        height: 400px;
+        height: 500px;
     }
     .card-body li {
         font-size: 1.5rem;
@@ -605,11 +615,11 @@ input {
         padding-top: 20px;
     }
     
-    
-    
+       
     .form-container {
         width: 100vw;
         margin: 0;
+        border-radius: 0;
     }
     .carousel-caption {
         padding-bottom: 320px;
@@ -617,8 +627,12 @@ input {
     
 }   
 
-
 @media screen and (max-width: 520px) {
+    body,
+    .form-container {
+        width: 520px;
+    }
+    
     #nav {
         padding: 10px 0;
     }
@@ -681,7 +695,7 @@ input {
     }
     .social {
         text-align: start;
-        padding-left: 35px;
+        padding-left: 130px;
     }
     .social h6 {
         padding-left: 30px;
@@ -766,36 +780,35 @@ input {
     .gym-text {
         height: 350px;
     }
-    .form-container {
-        width: 100%;
-    }
+    
     .modal-body {
     padding-bottom: 30px;
-}
-.modal-content {
-    width: 330px;
-    height: 500px;
-   
-} 
-.modal-title {
-    color: #433520;
-    font-size: 1.3rem;
-    font-weight: 700;
-}
-label {
-    color: #7c9473;
-    font-size: 1.1rem;
-    padding-top: 5px;
-    padding-bottom: 2.5px;
-}
-input {
-    width: 100%;
-    height: 2rem;
-    padding: 7px;
-    border-color: #433520;
-    border-radius: 5px;
-}
-.modal-footer {
-    padding: 20px;
-}
+    }
+    .modal-content {
+        width: 330px;
+        height: 500px;
+    
+    } 
+    .modal-title {
+        color: #433520;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    label {
+        color: #7c9473;
+        font-size: 1.1rem;
+        padding-top: 5px;
+        padding-bottom: 2.5px;
+    }
+    input {
+        width: 100%;
+        height: 2rem;
+        padding: 7px;
+        border-color: #433520;
+        border-radius: 5px;
+    }
+    .modal-footer {
+        padding: 20px;
+    }
+
 }   

@@ -53,7 +53,7 @@ contact.html was not lining up properly, I redid the container without bootstrap
 #### Commit 7 - Finished all other viewport mediaquery
 
 #### commit 8 embedded img index.html and about.html for accessibility, fixed social links
-
+#### commit 9 fixed images and boxes in services.html
 # testing
 # deployment
 
