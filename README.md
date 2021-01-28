@@ -5,10 +5,14 @@ The website is designed to be simple to use, easy on the eyes and sufficiently i
 The user will be able to scroll through a image carousel, request a schedule to be sent via email through a modal pop-up form
 and asked to be contacted through a contact form. 
 
+<<<<<<< HEAD
 ## This project can be viewed here : [Gym|mies](https://finnsterfran.github.io/Gymmies-Milestone-1-Project---Frannie-Yip/index.html)
 
 
 ## Table of Contents: 
+=======
+##Table of Contents: 
+>>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 * UX
     * User stories
     * Strategy
@@ -31,6 +35,7 @@ and asked to be contacted through a contact form.
     * media
     * code
 * Acknowledgements 
+<<<<<<< HEAD
 
 # UX
 ## User stories
@@ -164,6 +169,12 @@ I choose this color palette for its naturally and calming feel, and it doesn't d
 * [Sneakpeekit](https://sneakpeekit.com/)
     * printable grids which I used for my wireframes and edited using preview
 
+=======
+
+# Structure and information
+Font family Pacifico for the logo, Roboto for the entire body of the website.
+color palette
+>>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 
 # version control
 #### Commit 1 - Initial Commit
@@ -191,10 +202,14 @@ contact.html was not lining up properly, I redid the container without bootstrap
 # testing
 # deployment
 
+<<<<<<< HEAD
 # Credit
 * Thanks to my mentor Excellence Ilesanmi for his patient guidance and letting me pick his brain for ideas.
 * Thanks to Henrique Peperoni whose Readme document was the format I based my Readme document on.
 * Thanks to the Code Institute's Slack Community for helping me with a github filepath issue.
 
+=======
+# credits
+>>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 
 
