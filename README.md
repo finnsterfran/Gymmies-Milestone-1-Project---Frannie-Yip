@@ -5,14 +5,10 @@ The website is designed to be simple to use, easy on the eyes and sufficiently i
 The user will be able to scroll through a image carousel, request a schedule to be sent via email through a modal pop-up form
 and asked to be contacted through a contact form. 
 
-<<<<<<< HEAD
 ## This project can be viewed here : [Gym|mies](https://finnsterfran.github.io/Gymmies-Milestone-1-Project---Frannie-Yip/index.html)
 
 
 ## Table of Contents: 
-=======
-##Table of Contents: 
->>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 * UX
     * User stories
     * Strategy
@@ -35,7 +31,6 @@ and asked to be contacted through a contact form.
     * media
     * code
 * Acknowledgements 
-<<<<<<< HEAD
 
 # UX
 ## User stories
@@ -169,12 +164,6 @@ I choose this color palette for its naturally and calming feel, and it doesn't d
 * [Sneakpeekit](https://sneakpeekit.com/)
     * printable grids which I used for my wireframes and edited using preview
 
-=======
-
-# Structure and information
-Font family Pacifico for the logo, Roboto for the entire body of the website.
-color palette
->>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 
 # version control
 #### Commit 1 - Initial Commit
@@ -199,17 +188,59 @@ contact.html was not lining up properly, I redid the container without bootstrap
 
 #### commit 8 embedded img index.html and about.html for accessibility, fixed social links
 #### commit 9 fixed images and boxes in services.html
-# testing
+# Responsiveness 
+## HOME-PAGE 
+#### Laptop - max-width: 1048px
+
+![Homepage-Laptop](./readme-img/homepage-responsive-laptop.png)
+
+#### Tablet - max-width: 748px 
+
+![Homepage-iPad](./readme-img/homepage-responsive-iPad.png)
+
+#### Mobile - max-width: 560px
+![Homepage-iphone](./readme-img/homepage-responsive-iPhone-6-7-8.png)
+
+## ABOUT-PAGE
+#### Laptop - max-width: 1048px
+
+![Aboutpage-Laptop](./readme-img/aboutpage-responsive-laptop.png)
+#### Tablet - max-width: 748px 
+
+![Aboutpage-iPad](./readme-img/aboutpage-responsive-iPad.png)
+
+#### Mobile - max-width: 560px
+
+![Aboutpage-iphone](./readme-img/aboutpage-responsive-iPhone-6-7-8.png)
+## SERVICES-PAGE
+
+#### Laptop - max-width: 1048px
+![Servicespage - Laptop](./readme-img/servicespage-responsive-laptop.png)
+
+#### Tablet - max-width: 748px 
+![Servicespage - iPad](./readme-img/servicespage-responsive-iPad.png)
+
+#### Mobile - max-width: 560px
+![Servicespage - iPhone](./readme-img/servicespage-responsive-iPhone-6-7-8.png)
+
+## CONTACT-PAGE
+
+#### Laptop - max-width: 1048px
+![Contactpage - laptop](./readme-img/contactpage.responsive-laptop.png)
+
+#### Tablet - max-width: 748px 
+![Contactpage - ipad](./readme-img/contactpage-responsive-ipad.png)
+
+#### Mobile - max-width: 560px
+![Contactpage - iPhone](./readme-img/contactpage-responsive-iPhone-6-7-8.png)
+# Testing
+
 # deployment
 
-<<<<<<< HEAD
 # Credit
 * Thanks to my mentor Excellence Ilesanmi for his patient guidance and letting me pick his brain for ideas.
-* Thanks to Henrique Peperoni whose Readme document was the format I based my Readme document on.
+* Thanks to Henrique Peperoni whose meticulously written Readme document was the format I based my own Readme document on.
 * Thanks to the Code Institute's Slack Community for helping me with a github filepath issue.
 
-=======
-# credits
->>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 
 

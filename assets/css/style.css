@@ -632,8 +632,11 @@ input {
         margin: 0;
         width: 560px;
     }
-    .radio input {
-        height: 1rem;
+    #contact-form .input {
+        height: 1.5rem;
+    }
+    .radio div {
+    padding-right: 80px;
     }
 
     #nav {
