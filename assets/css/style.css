@@ -626,24 +626,16 @@ input {
     }
     
 }   
-<<<<<<< HEAD
 @media screen and (max-width: 560px) {
     body,
     .form-container {
         margin: 0;
         width: 560px;
     }
-       
-
-=======
-
-@media screen and (max-width: 520px) {
-    body,
-    .form-container {
-        width: 520px;
+    .radio input {
+        height: 1rem;
     }
-    
->>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
+
     #nav {
         padding: 10px 0;
     }
@@ -651,7 +643,7 @@ input {
         font-size: 0.8rem;
     }
     .col-3 {
-        max-width: 23%;
+        max-width: 24%;
     }
     
     .message {
@@ -821,9 +813,5 @@ input {
     .modal-footer {
         padding: 20px;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> 4ef3566e9adb3189c53ce5289748f08eb42d93c1
 }   
