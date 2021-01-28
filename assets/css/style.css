@@ -627,6 +627,7 @@ input {
     
 }   
 @media screen and (max-width: 560px) {
+    body,
     .form-container {
         margin: 0;
         width: 560px;
