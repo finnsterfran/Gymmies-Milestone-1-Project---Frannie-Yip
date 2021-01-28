@@ -21,38 +21,83 @@
         <div class="row no-gutters">
             <div class="col">            
                 <ul id="nav" class="list-inline uppercase menucontainer">
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="index.html" target="_blank">Home</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="about.html" target="_blank">About</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="services.html" target="_blank">Services</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="contact.html" class="current" target="_blank">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <section id="hero">
-
+     <section id="contact-form">
+         <div class="form-container">
+            <h3>Need More Information?</h3>
+            <h4>Fill in this form and we will get in touch!</h4>
+            <form action="">  
+            <div class="form-group">
+                <label for="form-first-name">First Name</label><br>
+                <input type="text" id="form-first-name" name="form-first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="form-last-name">Last Name</label><br>
+                <input type="text" id="form-last-name" name="form-last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="form-email">Email</label><br>
+                <input type="email" id="form-email" name="form-email" required>
+            </div>
+            <div class="form-group">
+                <label for="form-telephone">Telephone number: </label><br>
+                <input type="number" id="form-telephone" name="form-telephone required">
+            </div>
+            <div class="form-group">
+                <label>Preferred Method of Communication: </label>   
+            </div>       
+            <div class="radio form-group">
+                <div>
+                    <input type="radio" id="email-radio" name="radio" value="email" checked>
+                    <label for="email-radio">Email</label>
+                </div>
+                <div>
+                    <input type="radio" id="telephone-radio" name="radio" value="telephone">
+                    <label for="telephone-radio">Telephone</label>
+                </div>
+                <div>
+                    <input type="radio" id="either-radio" name="radio" value="either">
+                    <label for="either-radio">Either</label>
+                </div>
+            </div>    
+                <div class="textarea">   
+                    <label for="enquiries">Specific Enquiries: </label><br>
+                    <textarea name="message" id="enquiries" cols="90" rows="6"></textarea>
+                </div> 
+            <button type="reset" class="button-two">Reset</button>
+            <button type="Submit" class="mainbutton">Submit</button>
+        </form>    
+        </div>  
+ 
+             
+            
+    
     </section>
-    <section id="features">
-
-    </section>
-    <section id="info">
-
-    </section>
+    
+    
+ 
     <footer>
         <div class="social">
-            <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-            <a href="www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="wwww.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-            <h6>Copyright &copy; 2021 - <span>Gym<i class="fas fa-fan"></i>mies</span></span></h6>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <h6>Copyright &copy; 2021 - <span>Gym<i class="fas fa-fan"></i>mies</span></h6>
         </div>
     </footer>
 <! --- Bootstrap JS --->    

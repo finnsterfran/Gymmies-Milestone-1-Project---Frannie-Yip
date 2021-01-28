@@ -21,40 +21,112 @@
         <div class="row no-gutters">
             <div class="col">            
                 <ul id="nav" class="list-inline uppercase menucontainer">
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="index.html" target="_blank">Home</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="about.html" target="_blank">About</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="services.html" class="current" target="_blank">Services</a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                    <li class="col-3 list-inline-item menuitem">
                         <a href="contact.html" target="_blank">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
-    <section id="hero">
-
+    <section id="services">
+<!--- Alert --->
+        <div class="alert alert-info" role="alert">
+            <h5>Get the new weekly yoga & pilates class schedule sent directly to your email.</h5>
+<!-- Button trigger modal -->
+            <button type="button" class="mainbutton" data-toggle="modal" data-target="#schedule-download">
+            Click Here
+            </button>
+        </div>
+       
+        <div class="row services-flex">
+            <div class="col-xl-5 col-md-6 col-12 service-item yog-pil-img">
+                <img src="./assets/images/services-img/pilates.jpg" alt="ladies doing pilates workout">
+            </div>
+            <div class="col-xl-7 col-md-6 col-12 service-item yog-pil-text">
+                <i class="fas fa-sun fa-2x"></i>
+                <i class="fas fa-seedling fa-2x"></i>
+                <h4>Strike a balance between body and mind with restorative and Vinyasa <strong>yoga</strong>. Or strengthen your cores muscles with our mat <strong>pilates</strong> classes.
+                    We schedule our classes based on time slot sign up and all classes are conducted in the morning. 
+                </h4>
+            </div>
+            <div class="col-xl-5 col-md-6 col-12 service-item gym-img">
+                <img src="./assets/images/hero-imgs/gymroom.jpg" alt="gym room with stationery exercise bikes and other sporting machines">
+            </div>
+            <div class="col-xl-7 col-md-6 col-12 service-item gym-text">
+                <i class="fas fa-dumbbell fa-2x"></i>
+                <h4>Our gym comes fully equipped with the latest exercise machines with modern technology
+                    to make your workout an enjoyable one. All the machines are logged into the central computer, 
+                    so you can access your exercise planner and tracker at every machine you are using.
+                </h4>
+            </div>
+            <div class="col-xl-5 col-md-6 col-12 service-item creche-img">
+                <img src="./assets/images/services-img/childcare.jpg" alt="child with a toy camera">
+            </div>
+            <div class="col-xl-7 col-md-6 col-12 service-item creche-text">
+               <i class="fas fa-child fa-2x"></i>
+               <h4>Our in-house nannies come fully trained to care for children of all ages. They will keep 
+                   your children safe and occupied with fun activities while you get in those precious moments of personal time.</h4>
+            </div>
+            <div class="col-xl-5 col-md-6 col-12 service-item sauna-img">
+                <img src="./assets/images/hero-imgs/sauna.jpg" alt="sauna room with u shaped seating and the sauna stones in the middle">
+            </div>
+            <div class="col-xl-7 col-md-6 col-12 flex-item service-item sauna-text">
+                 <i class="fas fa-spa fa-2x"></i>
+                 <h4>There are so many benefits of sauna - increases blood flow, releases endorphins, flush out toxins, relieves stress and much more.</h4>
+            </div>
+            <div class="col-xl-5 col-md-6 col-12 service-item food-img">
+                <img src="./assets/images/hero-imgs/food.jpg" alt="three plates of food laid out on table and garnished with chilli, cashew, coriander">
+            </div>
+            <div class="col-xl-7 col-md-6 col-12 service-item food-text">
+                <i class="fas fa-utensils fa-2x"></i>
+                <h4>Take a break from cooking. Enjoy the nutrition-balanced meals prepared by our in-house chef. All meals are gluten and lactose free.</h4>
+            </div>
+        </div>
     </section>
-    <section id="features">
-
-    </section>
-    <section id="info">
-
-    </section>
+    
     <footer>
         <div class="social">
-            <a href="www.facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-            <a href="www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
-            <a href="www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
-            <a href="wwww.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-            <h6>Copyright &copy; 2021 - <span>Gym<i class="fas fa-fan"></i>mies</span></span></h6>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram fa-3x"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <h6>Copyright &copy; 2021 - <span>Gym<i class="fas fa-fan"></i>mies</span></h6>
         </div>
     </footer>
+   <!-- Modal -->
+<div class="modal fade" id="schedule-download" tabindex="-1" role="dialog" aria-labelledby="download-schedule-classes" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="download-schedule-classes">Request for a Schedule</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <label class="modal-label" for="firstname">First Name</label><br>
+        <input type="text" id="firstname" name="firstname" required><br>
+        <label for="lastname">Last Name</label><br>
+        <input type="text" id="lastname" name="lastname" required><br>
+        <label for="emailaddress">Email Address</label><br>
+        <input type="email" id="emailaddress" name="email" required><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="button-two" data-dismiss="modal">Close</button>
+        <button type="button" class="mainbutton">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 <! --- Bootstrap JS --->    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
