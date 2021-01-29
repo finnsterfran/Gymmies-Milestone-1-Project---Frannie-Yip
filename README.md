@@ -140,6 +140,10 @@ I choose this color palette for its naturally and calming feel, and it doesn't d
     * printable grids which I used for my wireframes and edited using preview
 * [Unsplash](https://unsplash.com/)
     * all the images that I have used on this project 
+* [W3Schools](https://www.w3schools.com/)
+    * one of the sources for 'how-to'
+* [Stackoverflow](https://stackoverflow.com/) 
+    * one of the sources for 'how-to'
     
 # Responsiveness 
 
@@ -282,6 +286,15 @@ In Github, I took these steps to deploy my website:
 * added more screenshots
 * added documentation to readme.md
 * fixed testing errors
+
+# Problems I've encountered
+* getting the boxes to align properly when moving from one viewport to another, this took quite a bit of time to fixed
+* in services.html, I had initially started with an image and text box per row and alternate to text image. When apply responsive resizing, the boxes would be stacked on top of each other, at some points text box on top of text box. I tried to do a flex-direction: reverse-column, but this made some of the text disappear under the images. So I opted for a change in layout.
+* I had the most trouble with the form in contact.html. I wanted it simple and something that would let me apply what I learned in html5. Adjustmets for the responsiveness took a lot of tries and figuring out. 
+* Button error - I had to make the 'Read More' button functional without having an anchor element as a child to the button element. Took a bit of searching online to find out how to do that.
+
+# Codes 
+* I lifted out and made use of the standard codes in bootstrap for the carousel, modal and cards.
 
 
 # Credit
