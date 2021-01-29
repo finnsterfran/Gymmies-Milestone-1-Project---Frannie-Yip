@@ -23,6 +23,7 @@ body {
     border-radius: 7px;
     font-size: 1.1rem;
     width: 120px;
+    text-decoration: none;
 }
 .mainbutton a {
     text-decoration: none;
@@ -31,6 +32,7 @@ body {
 .mainbutton:hover {
     background-color: #7c9473;
     color: #433520;
+    text-decoration: none;
 }
 .button-two {
     cursor: pointer;
@@ -159,6 +161,7 @@ header {
     line-height: 2;
     padding-bottom: 20px;
 }
+
 /* ---- Features section ---- */
 .featurecontainer {
     font-size: 0;
