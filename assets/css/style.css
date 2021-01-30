@@ -299,11 +299,14 @@ td {
 /* ---- About ----*/
 
 .about-image img {
-	width: 100vw;
+    width: 100vw;
+    height: 800px;
+    object-fit: cover;
 }
 
 .about-image {
-	padding-left: 0;
+    padding-left: 0;
+    
 }
 
 .what {
