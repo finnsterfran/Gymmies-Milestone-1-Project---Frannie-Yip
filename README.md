@@ -127,9 +127,9 @@ I choose this color palette for its naturally and calming feel, and it doesn't d
 * [Bootstrap](https://getbootstrap.com/) - Framework
 
 ## Workspace, Version Control and Repository Storage 
-* [Gitpod]() 
-* [Github]()
-* [Git]()
+* [Gitpod](https://gitpod.io/) 
+* [Github](https://github.com/)
+* [Git](https://git-scm.com/)
 
 # Resources 
 * [Bootstrap Docs](https://getbootstrap.com/)
@@ -145,54 +145,6 @@ I choose this color palette for its naturally and calming feel, and it doesn't d
 * [Stackoverflow](https://stackoverflow.com/) 
     * one of the sources for 'how-to'
     
-# Responsiveness 
-
-## HOME-PAGE 
-#### Laptop - max-width: 1048px
-
-![Homepage-Laptop](./readme-img/homepage-responsive-laptop.png)
-
-#### Tablet - max-width: 748px 
-
-![Homepage-iPad](./readme-img/homepage-responsive-iPad.png)
-
-#### Mobile - max-width: 560px
-![Homepage-iphone](./readme-img/homepage-responsive-iPhone-6-7-8.png)
-
-## ABOUT-PAGE
-#### Laptop - max-width: 1048px
-
-![Aboutpage-Laptop](./readme-img/aboutpage-responsive-laptop.png)
-#### Tablet - max-width: 748px 
-
-![Aboutpage-iPad](./readme-img/aboutpage-responsive-iPad.png)
-
-#### Mobile - max-width: 560px
-
-![Aboutpage-iphone](./readme-img/aboutpage-responsive-iPhone-6-7-8.png)
-## SERVICES-PAGE
-
-#### Laptop - max-width: 1048px
-![Servicespage - Laptop](./readme-img/servicespage-responsive-laptop.png)
-
-#### Tablet - max-width: 748px 
-![Servicespage - iPad](./readme-img/servicespage-responsive-iPad.png)
-
-#### Mobile - max-width: 560px
-![Servicespage - iPhone](./readme-img/servicespage-responsive-iPhone-6-7-8.png)
-
-## CONTACT-PAGE
-
-#### Laptop - max-width: 1048px
-![Contactpage - laptop](./readme-img/contactpage.responsive-laptop.png)
-
-#### Tablet - max-width: 748px 
-![Contactpage - ipad](./readme-img/contactpage-responsive-ipad.png)
-
-#### Mobile - max-width: 560px
-![Contactpage - iPhone](./readme-img/contactpage-responsive-iPhone-6-7-8.png)
-
-
 # Testing
 1. I ran the individual HTML pages through [W3 Validator](https://validator.w3.org/) 
 
@@ -220,7 +172,19 @@ to < th > instead.
 3. I ran style.css in [W3C Css Validator](https://jigsaw.w3.org/css-validator/validator)
 * It returned with no errors.
 
-# Version Control and Deployment
+# Deployment
+* I used Gitpod, which is the online IDE recommended by Code Institute.
+* I used the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template) to start on this project.
+* After adding, commiting and pushing my codes to Github repository where my work is stored, I took the following steps to for deployment:
+    * Clicked my project repository
+    * Under 'Settings', I scrolled down to the section with 'Github Pages'.
+    * For 'Source', I clicked 'main' in the dropdown selection and saved.
+    * My website was now live, and has it's own URL. 
+    * Cloning this is possible by clicking on the Code button.
+        * This opens the options of URL to the project, to open with Github Desktop or download a zip copy of the project.
+
+
+# Version Control 
 #### Commit 1 - Initial Commit 
 Created the foundation of the website: 
 * asset folder containing css and images sub-folders
@@ -261,12 +225,6 @@ Created the foundation of the website:
 * added alt text to the images for accessibility
 * fixed social media links at footer. Linked were not full url address so they did not link properly.
 
-#### Deployment 
-In Github, I took these steps to deploy my website:
-* in the 'Repository', clicked on this project 
-* went into 'Settings' and scrolled down to 'Github pages'
-* under 'Source', selected 'branch: 'main'', 'root', 'save'
-
 #### Commit 9
 * fixed path to include . in front because the images would not load on webpage
 
@@ -290,6 +248,9 @@ In Github, I took these steps to deploy my website:
 #### Commit 16 fixed arrow in input box contact.html
 * added a code to remove the arrows
 
+#### Commit 17 final fixes 
+* made slight tweaking to the final version of the project, updated README.md
+
 # Problems I've encountered
 * getting the boxes to align properly when moving from one viewport to another, this took quite a bit of time to fixed
 * in services.html, I had initially started with an image and text box per row and alternate to text image. When apply responsive resizing, the boxes would be stacked on top of each other, at some points text box on top of text box. I tried to do a flex-direction: reverse-column, but this made some of the text disappear under the images. So I opted for a change in layout.
@@ -297,14 +258,13 @@ In Github, I took these steps to deploy my website:
 * Button error - I had to make the 'Read More' button functional without having an anchor element as a child to the button element. Took a bit of searching online to find out how to do that.
 * I noticed that in the input box for telephone number in the form on contact.html, an pair of up and down arrows appeared towards the right end of the box.
     * changed type to "tel"
-    
+
 # Codes 
 * I lifted out and made use of the standard codes in bootstrap for the carousel, modal and cards.
-* Copied and used a code from Codegrepper to fix an issue with arrows in input box.
 
 # Credit
 * Thanks to my mentor Excellence Ilesanmi for his patient guidance and letting me pick his brain for ideas.
-* Thanks to Henrique Peperoni whose meticulously written Readme document was the format I based my own Readme document on.
+* Thanks to [Henrique Peperoni](https://github.com/Henriqueperoni) whose meticulously written Readme document was the format I based my own Readme document on.
 * Thanks to the Code Institute's Slack Community for helping me with a github filepath issue.
 
 
