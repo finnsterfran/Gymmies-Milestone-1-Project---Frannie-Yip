@@ -469,6 +469,11 @@ input {
     margin: 10px 10px 0 10px;
     
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 /* ---- Media Query ---- */
 @media screen and (max-width: 1280px) {

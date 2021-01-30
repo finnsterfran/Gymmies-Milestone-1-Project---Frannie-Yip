@@ -292,10 +292,12 @@ In Github, I took these steps to deploy my website:
 * in services.html, I had initially started with an image and text box per row and alternate to text image. When apply responsive resizing, the boxes would be stacked on top of each other, at some points text box on top of text box. I tried to do a flex-direction: reverse-column, but this made some of the text disappear under the images. So I opted for a change in layout.
 * I had the most trouble with the form in contact.html. I wanted it simple and something that would let me apply what I learned in html5. Adjustmets for the responsiveness took a lot of tries and figuring out. 
 * Button error - I had to make the 'Read More' button functional without having an anchor element as a child to the button element. Took a bit of searching online to find out how to do that.
+* I noticed that in the input box for telephone number in the form on contact.html, an pair of up and down arrows appeared towards the right end of the box.
+    * found a solution on [Codegrepper](https://www.codegrepper.com/code-examples/delphi/removing+arrows+from+input+number+html)
 
 # Codes 
 * I lifted out and made use of the standard codes in bootstrap for the carousel, modal and cards.
-
+* Copied and used a code from Codegrepper to fix an issue with arrows in input box.
 
 # Credit
 * Thanks to my mentor Excellence Ilesanmi for his patient guidance and letting me pick his brain for ideas.
