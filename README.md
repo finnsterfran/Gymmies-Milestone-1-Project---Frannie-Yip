@@ -254,6 +254,9 @@ Created the foundation of the website:
 #### Commit 18 minor changes to image size and meta tag
 * fixed image sizing and meta tag
 
+#### Commit 19 fixed issues with responsiveness on max-width 560px
+* changed social footer alignment and bottom margin. resized boxes in about.html. resize input boxes, buttons and h4 font on contact page
+
 # Problems I've encountered
 * getting the boxes to align properly when moving from one viewport to another, this took quite a bit of time to fixed
 * in services.html, I had initially started with an image and text box per row and alternate to text image. When apply responsive resizing, the boxes would be stacked on top of each other, at some points text box on top of text box. I tried to do a flex-direction: reverse-column, but this made some of the text disappear under the images. So I opted for a change in layout.
