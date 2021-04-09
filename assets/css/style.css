@@ -478,7 +478,7 @@ input {
 /* ---- Contact ---- */
 
 .form-container {
-	width: 70%;
+	width: 100%;
 	margin: 60px 200px 10px 280px;
 	border-radius: 20px;
 	padding: 40px;
@@ -730,12 +730,12 @@ input {
 	body,
 	.form-container {
 		margin: 0;
-        max-width: 560px;
+        max-width: 100%;
         padding-left: 0;
         padding-right: 0;
 	}
 	#contact-form input {
-        height: 3rem;
+        height: 2.5rem;
         border-radius: 15px;
     }
     #contact-form h4 {
@@ -748,7 +748,7 @@ input {
     }
     
 	.radio div {
-        padding-right: 30px;
+        padding-right: 20px;
         padding-left: 10px;
     }
     
