@@ -736,7 +736,7 @@ input {
 	body,
 	.form-container {
 		margin: 0;
-        max-width: 560px;
+        max-width: 100%;
         padding-left: 0;
         padding-right: 0;
     }
@@ -751,7 +751,6 @@ input {
 
     #contact-form button {
         font-size: 1rem;
-        margin-left: 30px;
     }
     
 	.radio div {
