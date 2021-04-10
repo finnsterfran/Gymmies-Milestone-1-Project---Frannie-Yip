@@ -731,7 +731,7 @@ input {
 	}
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 480px) {
     
 	body,
 	.form-container {
