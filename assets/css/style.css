@@ -4,7 +4,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #f4f4f4;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
 .row {
@@ -272,7 +272,8 @@ td {
 
 .social {
 	text-align: center;
-	padding-top: 22px;
+    padding-top: 22px;
+    margin-bottom: 40px;
 }
 
 .social i {
@@ -478,11 +479,16 @@ input {
 /* ---- Contact ---- */
 
 .form-container {
-	width: 100%;
-	margin: 60px 200px 10px 280px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
 	border-radius: 20px;
 	padding: 40px;
-	background-color: #cdd0cb;
+    background-color: #cdd0cb;
+    margin-left: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
 #contact-form .form-group {
@@ -730,10 +736,11 @@ input {
 	body,
 	.form-container {
 		margin: 0;
-        max-width: 100%;
+        max-width: 560px;
         padding-left: 0;
         padding-right: 0;
-	}
+    }
+
 	#contact-form input {
         height: 2.5rem;
         border-radius: 15px;
@@ -795,7 +802,6 @@ input {
 	.summary {
 		display: inline-block;
 		padding: 30px 40px;
-		;
 		background-color: #e8eae6;
 		color: #433520;
 		align-items: center;
