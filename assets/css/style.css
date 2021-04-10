@@ -751,10 +751,11 @@ input {
 
     #contact-form button {
         font-size: 1rem;
+        width: 90px;
     }
     
 	.radio div {
-        padding-right: 20px;
+        padding-right: 10px;
         padding-left: 10px;
     }
     
